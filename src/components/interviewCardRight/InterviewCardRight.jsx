@@ -30,15 +30,15 @@ const interviews = [
 function InterviewCardRight() {
   return (
     <>
-      <div className="flex mt-2 justify-around">
+      <div className="flex w-[230px] mt-2 justify-between">
         <h1 className="font-semibold text-xl">Upcomings</h1>
         <h3 className="font-lg text-md underline text-blue-600">View All</h3>
       </div>
-      <div className="flex flex-col items-center space-y-4 w-[230px] ml-[25px] mr-[2px]">
+      <div className="flex flex-col items-center space-y-4 w-[230px] ml-[1px]">
         {interviews.map((interview, index) => (
           <div
             key={index}
-            className="flex items-center bg-white shadow-lg rounded-lg px-1 my-1 py-1 space-x-2"
+            className="flex items-center bg-white shadow-lg rounded-lg px-1 my-1 py-1 space-x-1"
           >
             <div className={`${interview.color} text-black p-4 rounded-lg`}>
               <div className="text-md font-semibold">{interview.date}</div>

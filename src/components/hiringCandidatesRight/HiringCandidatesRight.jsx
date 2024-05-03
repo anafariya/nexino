@@ -48,10 +48,10 @@ function HiringCandidatesRight() {
   ];
 
   return (
-    <div className="p-1 bg-gray-100 w-[265px] rounded-lg shadow">
+    <div className="p-1 bg-gray-100 w-[230px] rounded-lg shadow">
       <div className="flex justify-between items-center mb-2">
-        <h1 className="font-semibold text-xl whitespace-nowrap">Hiring Candidates</h1>
-        <h3 className="font-lg text-md whitespace-nowrap underline ml-2 text-blue-600 cursor-pointer">
+        <h1 className="font-semibold text-xl ">Hiring Candidates</h1>
+        <h3 className="font-lg text-md whitespace-nowrap underline ml-1 text-blue-600 cursor-pointer">
           View All
         </h3>
       </div>

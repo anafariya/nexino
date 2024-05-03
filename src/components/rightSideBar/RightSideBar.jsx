@@ -6,7 +6,7 @@ import HiringCandidatesRight from '../hiringCandidatesRight/HiringCandidatesRigh
 export default function RightSideBar() {
   return (
     <div>
-      <img src="./calendar.png" alt="" className='w-100 p-10 shadow-lg mt-[10px] mr-10' />
+      <img src="./calendar.png" alt="" className='w-90 p-1 shadow-lg mt-[10px]' />
      
       <InterviewCardRight/>
       <ActivityCardRight/>
