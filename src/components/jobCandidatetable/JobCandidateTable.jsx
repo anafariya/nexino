@@ -82,7 +82,7 @@ function JobCandidateTable() {
             {candidate.levels.map((level, idx) => (
               <td key={idx}>
                 {level === "X" ? (
-                  <MdCancel className="text-red-500" />
+                  <MdCancel className="text-red-500 ml-10" />
                 ) : (
                   level
                 )}

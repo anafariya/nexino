@@ -8,8 +8,8 @@ function Header() {
   return (
     <>
     <div className="flex h-10vh items-center justify-between mt-10 ml-[55px]">
-        <div className="flex items-center space-x-2 md:space-x-4">
-            <img src="/nexino-logo.png" alt="Nexino" className="h-8 md:h-10" />
+        <div className="flex items-center space-x-2">
+            <img src="/nexino-logo.png" alt="Nexino" className="h-8" />
             
             <form className="flex-1 max-w-md">
                 <div className="relative">
@@ -25,7 +25,7 @@ function Header() {
                 <label htmlFor="default-search" className="text-sm font-medium text-gray-900 sr-only">Search</label>
             </form>
         </div>
-        <div className='w-[40vw] header-icons flex justify-between'>
+        <div className='w-[35vw] header-icons flex justify-between'>
             <TbBrightnessUp size="24" />
             <FaRegComment size="24" />
             <IoMdNotificationsOutline size="24" />
