@@ -14,8 +14,8 @@ function MeetingInfo({ employee }) {
         <p className="text-gray-600 border-b border-gray-500 my-[5px]">{employee.role}</p>
         <div className="text-center">
           <div className="flex">
-            <div className="text-blue-500 font-sm border-r border-gray-500">{employee.date}</div>
-            <div className="text-gray-500 font-sm">{employee.time}</div>
+            <div className="text-blue-500 font-xs border-r border-gray-500">{employee.date}</div>
+            <div className="text-gray-500 font-xs">{employee.time}</div>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@ function MeetingInfo({ employee }) {
         </p>
       </div>
       <div className="flex">
-          <button className="bg-blue-500 text-white whitespace-nowrap ml-2 h-10 text-sm w-full rounded px-4 py-2">
+          <button className="bg-white text-blue-500 border border-blue-500 whitespace-nowrap ml-2 h-10 text-sm w-full rounded px-4 py-2">
             Reschedule Meeting
           </button>
           <button className="bg-blue-500 whitespace-nowrap h-10 ml-10 text-white text-sm w-full rounded px-4 py-2">
