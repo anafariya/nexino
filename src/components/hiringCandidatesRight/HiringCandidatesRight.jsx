@@ -52,7 +52,7 @@ function HiringCandidatesRight() {
     <div className="p-1 bg-gray-100 w-[230px] rounded-lg shadow">
       <div className="flex justify-between items-center mb-2">
         <h1 className="text-[17px] font-semibold whitespace-nowrap my-3 ">Hiring Candidates</h1>
-        <h3 className="font-normal text-md whitespace-nowrap underline text-blue-600 cursor-pointer">
+        <h3 className="font-normal mr-3 text-md whitespace-nowrap underline text-blue-600 cursor-pointer">
           View All
         </h3>
       </div>

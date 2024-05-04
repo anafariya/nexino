@@ -19,7 +19,7 @@ function ActivityCardRight() {
     <div className="p-1 bg-gray-100 w-[230px] rounded-lg shadow">
       <div className="flex justify-between items-center mb-1">
         <h1 className="font-semibold text-xl my-3">Activity</h1>
-        <h3 className="font-lg text-md underline text-blue-600 cursor-pointer">View All</h3>
+        <h3 className="font-lg text-md underline text-blue-600 mr-3 cursor-pointer">View All</h3>
       </div>
       <ActivityCard
         imgSrc="./ana1.jpg"
