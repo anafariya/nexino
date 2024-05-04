@@ -3,7 +3,7 @@ import { GrDocumentText } from "react-icons/gr";
 
 const LeftSideBar = () => {
   return (
-    <div className="bg-white shadow-xl h-screen fixed top-0 left-0 mr-2 border-slate-200 ">
+    <div className="bg-white shadow-xl h-screen fixed top-0 left-0 border-slate-200 ">
       <div className="py-6 px-3 pt-3 hover:cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
