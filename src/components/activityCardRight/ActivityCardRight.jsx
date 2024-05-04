@@ -3,7 +3,7 @@ import React from "react";
 function ActivityCardRight() {
   const ActivityCard = ({ imgSrc, name, role, description, time }) => (
     <div className="flex items-center bg-white shadow-lg rounded-lg py-2 px-1 mb-4">
-      <img src={imgSrc} className="w-[50px] h-[50px] rounded-full mr-1" alt={name} />
+      <img src={imgSrc} className="w-[50px] h-[50px] rounded-full mr-1 object-cover" alt={name} />
       <div className="flex flex-col">
         <div className="flex items-baseline space-x-3">
           <h1 className="text-[11.7px] mt-2 font-semibold tracking-tight">{name}</h1>

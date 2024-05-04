@@ -7,7 +7,7 @@ function MeetingInfo({ employee }) {
         <img
           src={employee.img}
           alt={employee.name}
-          className="w-16 h-16 rounded-full border-2 ml-5 mb-4 mt-10 border-blue-400"
+          className="w-16 object-cover h-16 rounded-full border-2 ml-5 mb-4 mt-10 border-blue-400"
         />
 
         <h3 className="font-md text-md">{employee.name}</h3>

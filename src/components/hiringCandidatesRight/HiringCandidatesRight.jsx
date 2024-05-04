@@ -5,7 +5,7 @@ function HiringCandidatesRight() {
     <div className="flex items-center bg-white shadow-lg rounded-lg p-1 mb-5">
       <img
         src={imgSrc}
-        className="w-[50px] h-[50px] rounded-full mr-4"
+        className="w-[50px] h-[50px] rounded-full mr-4 object-cover"
         alt={name}
       />
       <div className="flex-grow flex flex-col">
