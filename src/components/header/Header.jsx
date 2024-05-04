@@ -7,7 +7,7 @@ import { IoSettingsOutline } from "react-icons/io5";
 function Header() {
   return (
     <>
-    <div className="flex h-10vh items-center justify-between shadow-xl mt-10 ml-[50px]">
+    <div className="flex h-10vh items-center justify-between shadow-xl mt-5 ml-[50px]">
         <div className="flex items-center space-x-2">
             <img src="/nexino-logo.png" alt="Nexino" className="h-10 ml-1" />
             
