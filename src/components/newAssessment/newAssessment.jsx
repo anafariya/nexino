@@ -2,7 +2,7 @@ import React from 'react';
 
 function NewAssessment() {
   return (
-    <div className="flex items-center w-[40vw] h-100 bg-blue-500 text-white font-sans rounded-lg p-5 relative mr-5">
+    <div className="flex items-center  shadow-xl w-[40vw] h-100 bg-blue-500 text-white font-sans rounded-lg p-5 relative mr-5">
      <div>
      <div className="flex items-center ">
         <img src="task-icon.png" alt="" className="absolute h-24 left-[15px] rounded-lg bottom-36" />

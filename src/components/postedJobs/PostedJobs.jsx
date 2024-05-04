@@ -4,7 +4,7 @@ import TechDetails from './TechDetails';
 
 function PostedJobs() {
   return (
-    <div className='w-[950px] ml-5'>
+    <div className='w-[950px] ml-5  shadow-xl'>
         <div className='header flex justify-between my-10'>
             <h1 className='font-semibold text-lg ml-5'>Posted Jobs</h1>
             <h3 className='underline text-blue-700 cursor-pointer'>View all</h3>
