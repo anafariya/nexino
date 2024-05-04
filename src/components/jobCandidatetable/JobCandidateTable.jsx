@@ -55,7 +55,7 @@ const candidates = [
 
 function JobCandidateTable() {
   return (
-    <table className="min-w-[850px] ml-2 shadow-lg leading-normal">
+    <table className="min-w-[850px] ml-2 leading-normal">
       <thead>
       <tr className="border-b-2 py-3 border-gray-600">
           <th className="w-1/12 px-1 text-xs">Job ID</th> {/* Adjust width and padding here */}

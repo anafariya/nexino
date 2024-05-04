@@ -4,7 +4,7 @@ import JobCandidateTable from '../jobCandidatetable/JobCandidateTable'
 
 function CandidateStatus() {
   return (
-    <div className='w-900px  shadow-xl ml-2'>
+    <div className='w-900px mt-5 ml-2'>
          <div className='header flex justify-between my-10'>
             <h1 className='font-semibold text-lg ml-5'>Candidate Status</h1>
             <h3 className='underline text-blue-700 cursor-pointer'>View all</h3>
