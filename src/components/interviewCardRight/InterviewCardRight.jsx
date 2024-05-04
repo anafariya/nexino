@@ -38,16 +38,16 @@ function InterviewCardRight() {
         {interviews.map((interview, index) => (
           <div
             key={index}
-            className="flex items-center bg-white shadow-lg rounded-lg px-1 my-1 py-1 space-x-1"
+            className="flex items-center px-1 my-1 py-1 space-x-1"
           >
-            <div className={`${interview.color} text-black p-2 rounded-lg`}>
+            <div className={`${interview.color} text-black p-3 rounded-lg`}>
               <div className="text-[11.2px] font-[1.6px]">{interview.date}</div>
               <div className="text-[11.2px] font-[1.6px]">{interview.month}</div>
             </div>
             <div className="flex flex-col flex-grow">
               <div className="text-[11.4px] font-normal">{interview.title}</div>
               <div className="text-gray-600 text-[11.4px] font-light">
-                Created by {interview.createdBy}
+                Created by <span className="text-blue-400 font-normal">{interview.createdBy}</span>
               </div>
               <div className="text-gray-600 text-[11.4px] font-light">{interview.time}</div>
             </div>

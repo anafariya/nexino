@@ -2,7 +2,7 @@ import React from "react";
 
 function ActivityCardRight() {
   const ActivityCard = ({ imgSrc, name, role, description, time }) => (
-    <div className="flex items-center bg-white shadow-lg rounded-lg py-2 px-1 mb-4">
+    <div className="flex items-center bg-gray-100 py-2 px-1 mb-4">
       <img src={imgSrc} className="w-[50px] h-[50px] rounded-full mr-1 object-cover" alt={name} />
       <div className="flex flex-col">
         <div className="flex items-baseline space-x-3">
@@ -16,7 +16,7 @@ function ActivityCardRight() {
   );
 
   return (
-    <div className="p-1 bg-gray-100 w-[230px] rounded-lg shadow">
+    <div className="p-1 bg-gray-100 w-[230px]">
       <div className="flex justify-between items-center mb-1">
         <h1 className="font-semibold text-xl my-3">Activity</h1>
         <h3 className="font-lg text-md underline text-blue-600 mr-3 cursor-pointer">View All</h3>

@@ -4,7 +4,7 @@ import TechDetails from './TechDetails';
 
 function PostedJobs() {
   return (
-    <div className='w-[950px] ml-5  shadow-xl'>
+    <div className='w-[1000px] ml-5  shadow-xl'>
         <div className='header flex justify-between my-10'>
             <h1 className='font-semibold text-lg ml-5'>Posted Jobs</h1>
             <h3 className='underline text-blue-700 cursor-pointer'>View all</h3>
@@ -33,7 +33,7 @@ function PostedJobs() {
             <h3 className='cursor-pointer'>Pending Jobs</h3>
         </div>
         <div class="border-[1px] my-2 border-gray-600" ></div>
-        <div className='flex gap-[35px]'>
+        <div className='flex gap-[57px]'>
         <TechDetails title="Python Developers" img="/python.jpg" developers={256} />
         <TechDetails title="Angular Developers" img="/angular.png" developers={256} />
         <TechDetails title="Java Developers" img="/java.jpg" developers={256} />

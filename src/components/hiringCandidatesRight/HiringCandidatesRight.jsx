@@ -2,13 +2,13 @@ import React from "react";
 
 function HiringCandidatesRight() {
   const HiredCard = ({ imgSrc, name, position }) => (
-    <div className="flex items-center bg-white shadow-sm rounded-lg p-1 mb-2">
+    <div className="flex items-center p-1 bg-gray-100 mb-5">
       <img
         src={imgSrc}
-        className="w-[50px] h-[50px] rounded-full mr-4 object-cover"
+        className="w-[55px] h-[55px] rounded-full mr-4 object-cover"
         alt={name}
       />
-      <div className="flex-grow flex flex-col">
+      <div className="flex-grow bg-gray-100 flex flex-col">
         <div className="text-[11.7px] font-semibold tracking-tight">{name}</div>
         <div className="text-gray-700 text-[11.2px] tracking-tighter font-normal mt-2">{position}</div>
         <div className="text-gray-600 text-[10.5px] font-normal whitespace-nowrap my-1">Hired by: Stella</div>
@@ -49,7 +49,7 @@ function HiringCandidatesRight() {
   ];
 
   return (
-    <div className="p-1 bg-gray-100 w-[230px] rounded-lg shadow">
+    <div className="p-1 w-[230px] bg-gray-100  ml-1">
       <div className="flex justify-between items-center mb-2">
         <h1 className="text-[17px] font-semibold whitespace-nowrap my-3 ">Hiring Candidates</h1>
         <h3 className="font-normal mr-3 text-md whitespace-nowrap underline text-blue-600 cursor-pointer">
