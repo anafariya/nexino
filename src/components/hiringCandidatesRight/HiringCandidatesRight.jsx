@@ -2,7 +2,7 @@ import React from "react";
 
 function HiringCandidatesRight() {
   const HiredCard = ({ imgSrc, name, position }) => (
-    <div className="flex items-center bg-white shadow-lg rounded-lg p-1 mb-5">
+    <div className="flex items-center bg-white shadow-sm rounded-lg p-1 mb-2">
       <img
         src={imgSrc}
         className="w-[50px] h-[50px] rounded-full mr-4 object-cover"
