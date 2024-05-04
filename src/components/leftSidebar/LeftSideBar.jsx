@@ -3,7 +3,7 @@ import React from "react";
 const LeftSideBar = () => {
   return (
     <div className="bg-white border h-screen fixed top-0 left-0 border-slate-200 ">
-      <div className="py-2 px-4 pt-3 hover:cursor-pointer">
+      <div className="py-7 px-3 pt-3 hover:cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -20,7 +20,7 @@ const LeftSideBar = () => {
         </svg>
       </div>
 
-      <div className="py-2 px-4 hover:cursor-pointer">
+      <div className="py-7 px-3 hover:cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -37,7 +37,7 @@ const LeftSideBar = () => {
         </svg>
       </div>
 
-      <div className="py-2 px-4 hover:cursor-pointer">
+      <div className="py-7 px-3 hover:cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -54,7 +54,7 @@ const LeftSideBar = () => {
         </svg>
       </div>
 
-      <div className="py-2 px-4 hover:cursor-pointer">
+      <div className="py-7 px-3 hover:cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -71,7 +71,7 @@ const LeftSideBar = () => {
         </svg>
       </div>
 
-      <div className="py-2 px-4 hover:cursor-pointer">
+      <div className="py-7 px-3 hover:cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -88,7 +88,7 @@ const LeftSideBar = () => {
         </svg>
       </div>
 
-      <div className="py-2 px-4 hover:cursor-pointer">
+      <div className="py-7 px-3 hover:cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -105,7 +105,7 @@ const LeftSideBar = () => {
         </svg>
       </div>
 
-      <div className="py-2 px-4 hover:cursor-pointer">
+      <div className="py-7 px-3 hover:cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -122,7 +122,7 @@ const LeftSideBar = () => {
         </svg>
       </div>
 
-      <div className="py-2 px-4 hover:cursor-pointer">
+      <div className="py-7 px-3 hover:cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -139,7 +139,7 @@ const LeftSideBar = () => {
         </svg>
       </div>
 
-      <div className="py-2 px-4 hover:cursor-pointer">
+      <div className="py-7 px-3 hover:cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

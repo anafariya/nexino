@@ -6,7 +6,7 @@ import LeftSideBar from "./components/leftSidebar/LeftSideBar";
 import RightSideBar from "./components/rightSideBar/RightSideBar";
 function App() {
   return (
-    <div className="App">
+    <div className="App w-full overflow-x-hidden">
       <Header />
       <div className="flex">
         <div className="w-[4vw]"><LeftSideBar/></div>

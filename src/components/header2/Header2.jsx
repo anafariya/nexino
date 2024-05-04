@@ -6,7 +6,7 @@ function Header2() {
   return (
     <>
     <div className='flex justify-between mt-10'>
-        <div className='ml-10'>
+        <div className='ml-5'>
             <h1 className='font-bold'>HR Employee</h1>
             <h3 className='font-semibold'>Enjoy your selecting potential candidate Tracking and Management System</h3>
         </div>

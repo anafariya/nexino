@@ -33,8 +33,8 @@ function HrDashboard() {
 
     
     <div>
-        <h1 className='font-semibold text-left ml-10 my-10'>Today Interview Meetings Info</h1>
-        <div className="flex overflow-x-auto py-4 space-x-4 px-4">
+        <h1 className='font-semibold text-lg text-left ml-5 my-10'>Today Interview Meetings Info</h1>
+        <div className="flex overflow-x-auto py-4 space-x-2 px-2">
       {employees.map(employee => (
         <MeetingInfo key={employee.id} employee={employee} />
       ))}

@@ -2,15 +2,15 @@ import React from "react";
 
 function ActivityCardRight() {
   const ActivityCard = ({ imgSrc, name, role, description, time }) => (
-    <div className="flex items-center bg-white shadow-lg rounded-lg py-2 px-1 mb-1">
-      <img src={imgSrc} className="w-[50px] h-[50px] rounded-full mr-2" alt={name} />
+    <div className="flex items-center bg-white shadow-lg rounded-lg py-2 px-1 mb-4">
+      <img src={imgSrc} className="w-[50px] h-[50px] rounded-full mr-1" alt={name} />
       <div className="flex flex-col">
-        <div className="flex items-baseline space-x-2">
-          <h1 className="font-semibold text-md">{name}</h1>
-          <span className="text-blue-400 text-sm">{role}</span>
+        <div className="flex items-baseline space-x-3">
+          <h1 className="text-[11.7px] mt-2 font-semibold tracking-tight">{name}</h1>
+          <span className="text-blue-500 text-[11.2px] tracking-tighter font-medium">{role}</span>
         </div>
-        <h4 className="text-sm whitespace-nowrap my-1">{description}</h4>
-        <h6 className="text-gray-600 text-xs">{time}</h6>
+        <h4 className="text-[11.4px] font-normal whitespace-nowrap my-1">{description}</h4>
+        <h6 className="text-gray-600 text-[11.3px] font-normal">{time}</h6>
       </div>
     </div>
   );
@@ -18,7 +18,7 @@ function ActivityCardRight() {
   return (
     <div className="p-1 bg-gray-100 w-[230px] rounded-lg shadow">
       <div className="flex justify-between items-center mb-1">
-        <h1 className="font-semibold text-xl">Activity</h1>
+        <h1 className="font-semibold text-xl my-3">Activity</h1>
         <h3 className="font-lg text-md underline text-blue-600 cursor-pointer">View All</h3>
       </div>
       <ActivityCard

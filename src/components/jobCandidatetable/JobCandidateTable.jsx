@@ -55,32 +55,32 @@ const candidates = [
 
 function JobCandidateTable() {
   return (
-    <table className="min-w-full ml-[15px] leading-normal">
+    <table className="min-w-full ml-2 leading-normal">
       <thead>
-        <tr className="border-b-2 py-4 border-gray-600">
-          <th>Job ID</th>
-          <th>Name</th>
-          <th>Position</th>
-          <th>1st Level</th>
-          <th>2nd Level</th>
-          <th>3rd Level</th>
-          <th>4th Level</th>
-          <th>Total Marks</th>
-          <th>Status</th>
-          <th>Actions</th>
+      <tr className="border-b-2 py-3 border-gray-600">
+          <th className="w-1/12 px-1 text-xs">Job ID</th> {/* Adjust width and padding here */}
+          <th className="w-1/12 px-1 text-xs">Name</th>
+          <th className="w-1/12 px-1 mx-2 text-xs">Position</th>
+          <th className="w-1/12 px-1 text-xs">1st Level</th>
+          <th className="w-1/12 px-1 text-xs">2nd Level</th>
+          <th className="w-1/12 px-1 text-xs">3rd Level</th>
+          <th className="w-1/12 px-1 text-xs">4th Level</th>
+          <th className="w-1/12 px-1 text-xs">Total Marks</th>
+          <th className="w-1/12 px-1 text-xs">Status</th>
+          <th className="w-1/12 px-1 text-xs">Actions</th>
         </tr>
       </thead>
       <tbody>
         {candidates.map((candidate, index) => (
           <tr
             key={index}
-            className="text-center border-b-2 py-[8px] border-gray-300" 
+            className="text-center  mx-5 border-b-2 py-[8px] border-gray-300" 
           >
-            <td>{candidate.id}</td>
-            <td>{candidate.name}</td>
-            <td>{candidate.position}</td>
+            <td  className="font-[1.2px] tracking-tighter text-[13.5px]">{candidate.id}</td>
+            <td className="font-[1.2px] tracking-tighter text-[13.5px]">{candidate.name}</td>
+            <td className="font-[1.2px] tracking-tighter text-[13.5px]">{candidate.position}</td>
             {candidate.levels.map((level, idx) => (
-              <td key={idx}>
+              <td className="font-[1.2px] text-[13.5px]" key={idx}>
                 {level === "X" ? (
                   <MdCancel className="text-red-500 ml-10" />
                 ) : (
@@ -88,8 +88,8 @@ function JobCandidateTable() {
                 )}
               </td>
             ))}
-            <td>{candidate.total}</td>
-            <td>
+            <td className="font-[1.2px] text-[13.5px]">{candidate.total}</td>
+            <td className="font-[1.2px] text-[13.5px]">
               <span
                 className={`label ${
                   candidate.status === "Reject"
@@ -102,9 +102,9 @@ function JobCandidateTable() {
                 {candidate.status}
               </span>
             </td>
-            <td>
-              <button className="p-2">
-                <IoEyeOutline size={24} />
+            <td className="font-[1.2px] text-[13.5px]">
+              <button className="p-3">
+                <IoEyeOutline size={21} />
               </button>
             </td>
           </tr>

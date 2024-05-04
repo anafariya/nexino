@@ -7,14 +7,14 @@ import { IoSettingsOutline } from "react-icons/io5";
 function Header() {
   return (
     <>
-    <div className="flex h-10vh items-center justify-between mt-10 ml-[55px]">
+    <div className="flex h-10vh items-center justify-between mt-10 ml-[50px]">
         <div className="flex items-center space-x-2">
-            <img src="/nexino-logo.png" alt="Nexino" className="h-8" />
+            <img src="/nexino-logo.png" alt="Nexino" className="h-10 ml-1" />
             
             <form className="flex-1 max-w-md">
                 <div className="relative">
                     <input type="search" id="default-search"
-                        className="block w-full py-2 md:py-3 px-3 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" 
+                        className="block w-full py-[6px] px-3 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" 
                         placeholder="Search" required />
                     <div className="absolute inset-y-0 right-0 flex items-center pr-2 md:pr-3 pointer-events-none">
                         <svg className="w-4 h-4 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
@@ -26,11 +26,11 @@ function Header() {
             </form>
         </div>
         <div className='w-[35vw] header-icons flex justify-between'>
-            <TbBrightnessUp size="24" />
-            <FaRegComment size="24" />
-            <IoMdNotificationsOutline size="24" />
-            <IoSettingsOutline size="24" />
-            <img class="w-10 h-10 rounded-full" src="header-girl.jpg" alt="Rounded avatar"/>
+            <TbBrightnessUp className='cursor-pointer' size="23" />
+            <FaRegComment className='cursor-pointer' size="23" />
+            <IoMdNotificationsOutline className='cursor-pointer' size="23" />
+            <IoSettingsOutline className='cursor-pointer' size="23" />
+            <img class="w-9 h-9 cursor-pointer mr-5 rounded-full" src="header-girl.jpg" alt="Rounded avatar"/>
         </div>
     </div>
     </>

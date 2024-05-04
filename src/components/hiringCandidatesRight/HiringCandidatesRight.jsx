@@ -2,20 +2,21 @@ import React from "react";
 
 function HiringCandidatesRight() {
   const HiredCard = ({ imgSrc, name, position }) => (
-    <div className="flex items-center bg-white shadow-lg rounded-lg p-1 mb-1">
+    <div className="flex items-center bg-white shadow-lg rounded-lg p-1 mb-5">
       <img
         src={imgSrc}
-        className="w-[55px] h-[55px] rounded-full mr-4"
+        className="w-[50px] h-[50px] rounded-full mr-4"
         alt={name}
       />
       <div className="flex-grow flex flex-col">
-        <div className="font-semibold text-md">{name}</div>
-        <div className="text-gray-700 text-sm">{position}</div>
-        <div className="text-gray-600 text-xs my-1">Hired by: Stella</div>
-        <button className="border-blue-500 border bg-white text-blue-500 font-medium p-1 rounded text-xs mt-1">
+        <div className="text-[11.7px] font-semibold tracking-tight">{name}</div>
+        <div className="text-gray-700 text-[11.2px] tracking-tighter font-normal mt-2">{position}</div>
+        <div className="text-gray-600 text-[10.5px] font-normal whitespace-nowrap my-1">Hired by: Stella</div>
+       
+      </div>
+      <button className="border-blue-500 border w-[50px] bg-white text-blue-500 font-medium p-1 rounded text-xs mt-1">
           Details
         </button>
-      </div>
     </div>
   );
 
@@ -50,8 +51,8 @@ function HiringCandidatesRight() {
   return (
     <div className="p-1 bg-gray-100 w-[230px] rounded-lg shadow">
       <div className="flex justify-between items-center mb-2">
-        <h1 className="font-semibold text-xl ">Hiring Candidates</h1>
-        <h3 className="font-lg text-md whitespace-nowrap underline ml-1 text-blue-600 cursor-pointer">
+        <h1 className="text-[17px] font-semibold whitespace-nowrap my-3 ">Hiring Candidates</h1>
+        <h3 className="font-normal text-md whitespace-nowrap underline text-blue-600 cursor-pointer">
           View All
         </h3>
       </div>

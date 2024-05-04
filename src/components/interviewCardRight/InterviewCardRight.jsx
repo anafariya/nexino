@@ -30,28 +30,28 @@ const interviews = [
 function InterviewCardRight() {
   return (
     <>
-      <div className="flex w-[230px] mt-2 justify-between">
-        <h1 className="font-semibold text-xl">Upcomings</h1>
-        <h3 className="font-lg text-md underline text-blue-600">View All</h3>
+      <div className="flex w-[210px] my-3 justify-between">
+        <h1 className="font-semibold text-lg ">Upcomings</h1>
+        <h3 className="font-lg text-md underline text-blue-600 cursor-pointer">View All</h3>
       </div>
-      <div className="flex flex-col items-center space-y-4 w-[230px] ml-[1px]">
+      <div className="flex flex-col items-center space-y-4 w-[210px] ml-[1px]">
         {interviews.map((interview, index) => (
           <div
             key={index}
             className="flex items-center bg-white shadow-lg rounded-lg px-1 my-1 py-1 space-x-1"
           >
-            <div className={`${interview.color} text-black p-4 rounded-lg`}>
-              <div className="text-md font-semibold">{interview.date}</div>
-              <div>{interview.month}</div>
+            <div className={`${interview.color} text-black p-2 rounded-lg`}>
+              <div className="text-[11.2px] font-[1.6px]">{interview.date}</div>
+              <div className="text-[11.2px] font-[1.6px]">{interview.month}</div>
             </div>
             <div className="flex flex-col flex-grow">
-              <div className="font-semibold text-sm">{interview.title}</div>
-              <div className="text-gray-600 text-sm">
+              <div className="text-[11.4px] font-normal">{interview.title}</div>
+              <div className="text-gray-600 text-[11.4px] font-light">
                 Created by {interview.createdBy}
               </div>
-              <div className="text-gray-600 text-xs">{interview.time}</div>
+              <div className="text-gray-600 text-[11.4px] font-light">{interview.time}</div>
             </div>
-            <button className="bg-blue-500 hover:bg-blue-700 text-sm text-white font-md py-2 px-4 rounded">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white text-[11.4px] font-normal py-1 px-2 rounded">
               Details
             </button>
           </div>
